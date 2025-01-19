@@ -1,17 +1,46 @@
 @import url("./fonts.css");
 body{
     background-image: url(../img/5.jpg);
-    background-size: 1600px;
+    background-size: 120rem;
+}
+.mustafa{
+  display: grid;
+  justify-items: center;
+}
+.col:nth-child(2){
+    display: flex;
+    width: 130px;
+    cursor: pointer;
+    flex-wrap: wrap;
 }
 .col:nth-child(2) img{
-    height: 180px;
+    width: 130px;
 }
-
 .col:nth-child(1) img{
     height: 600px;
 }
 .container{
     margin-top: 50px;
+    display: grid;
+}
+.prav{
+    display: grid;
+}
+.shapka{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    background: none;
+    border: none;
+}
+.str{
+    width: 80px;
+}
+#str{
+    justify-self: end;
+    display: none;
 }
 *{
     font-family: Marmelad;
@@ -20,10 +49,46 @@ h1{
     text-align: center;
     font-size: 4rem !important;
     margin-top: 0;
-    background-image: linear-gradient(to right, white, red, orange, green, blue, violet, white  );
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, red, orange, green, blue, violet);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
+  
+  .volkk {
+    transform: translate(-342px, 200px);
+    transition: 0.5s;
+    width: 100px;
+    position: fixed;
+  }
+  .rabbitt {
+    transform: translate(-465px, 190px);
+    transition: 0.5s;
+    width: 100px;
+    position: fixed;
+  }
+  .lisaa {
+    transform: translate(-585px, 210px);
+    transition: 0.5s;
+    width: 100px;
+    position: fixed;
+  }
+  .mousee {
+    transform: translate(-463px, 70px);
+    transition: 0.5s;
+    width: 100px;
+    position: fixed;
+  }
+  .frogg {
+    transform: translate(-585px, 360px);
+    transition: 0.5s;
+    width: 100px;
+    position: fixed;
+  }
+  .beeer {
+    transform: translate(-342px, 350px);
+    transition: 0.5s;
+    width: 100px;
+    position: fixed;
+  }
