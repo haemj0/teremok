@@ -11,25 +11,34 @@
 </head>
 <body>
     <div class="container">
-        <h1>МИНИ-ИГРА "ТЕРЕМОК"</h1>
+        <div class="shapka">
+        <p>Правильных ответов: <a id="clicks">0</a></p>
+        <div class="mustafa">
+            <h1>МИНИ-ИГРА "ТЕРЕМОК"</h1>
+            <p>Нажми на зверька, чтобы он попал в теремок</p>
+        </div>
+        
+        <p>Неравильных ответов: <a id="click">0</a></p>
+        </div>
         <div class="row">
             <div class="col">
-                <img src="./assets/img/1.png" class="img-fluid" alt="...">
+                <img src="./assets/img/1.png" class="img-fluid" alt="..." id="gate">
             </div>
 
             <div class="col">
-                <img src="./assets/img/6.png" class="img-fluid" alt="...">
-                <img src="./assets/img/7.png" class="img-fluid" alt="...">
-                <img src="./assets/img/8.png" class="img-fluid" alt="...">
-                <img src="./assets/img/9.png" class="img-fluid" alt="...">
-                <img src="./assets/img/10.png" class="img-fluid" alt="...">
-                <img src="./assets/img/11.png" class="img-fluid" alt="...">
-                <img src="./assets/img/12.png" class="img-fluid" alt="...">
-                <img src="./assets/img/13.png" class="img-fluid" alt="...">
-                <img src="./assets/img/14.png" class="img-fluid" alt="...">
+                <div class="volk" ><button type="button" onClick="onClick()"><img src="./assets/img/6.png" class="img-fluid" alt="..."></button></div>
+                <div class="rabbit"><button type="button" onClick="onClick()"><img src="./assets/img/7.png" class="img-fluid" alt="..."></button></div>
+                <div class="cat"><button type="button" onClick="onClickk()"><img src="./assets/img/8.png" class="img-fluid" alt="..."></button></div>
+                <div class="lisa"><button type="button" onClick="onClick()"><img src="./assets/img/9.png" class="img-fluid" alt="..."></button></div>
+                <div class="petuh"><button type="button" onClick="onClickk()"><img src="./assets/img/10.png" class="img-fluid" alt="..."></button></div>
+                <div class="mouse"><button type="button" onClick="onClick()"><img src="./assets/img/11.png" class="img-fluid" alt="..."></button></div>
+                <div class="pig"><button type="button" onClick="onClickk()"><img src="./assets/img/12.png" class="img-fluid" alt="..."></button></div>
+                <div class="frog"> <button type="button" onClick="onClick()"><img src="./assets/img/13.png" class="img-fluid" alt="..."></button></div>
+                <div class="beer"> <button type="button" onClick="onClick()"><img src="./assets/img/14.png" class="img-fluid" alt="..."></button></div>
             </div>
-            
+            <script src="js.js"></script>
         </div>
+        <a href="https://i.ytimg.com/vi/d43AwCp_VxQ/maxresdefault.jpg" id="str"><img src="./assets/img/2.png" class="str"></a>
     </div>  
 </body>
 </html>
