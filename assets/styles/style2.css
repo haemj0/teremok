@@ -1,0 +1,133 @@
+@import url("./fonts.css");
+body{
+    background-image: url(../img/5.jpg);
+    background-size: 120rem;
+}
+.mustafa{
+    display: grid;
+    justify-items: center;
+  }
+  .row{
+    display: grid !important;
+    margin-top: 150px !important;
+  }
+  .col:nth-child(2){
+      display: flex;
+  }
+  .col:nth-child(1){
+    display: flex;
+}
+  .col:nth-child(2) img{
+      width: 150px;
+  }
+  .col:nth-child(1) img{
+      height: 150px;
+  }
+  .container{
+      margin-top: 50px;
+      display: grid;
+  }
+  *{
+    font-family: Marmelad;
+}
+h1{
+    text-align: center;
+    font-size: 4rem !important;
+    margin-top: 0;
+    background-image: linear-gradient(to right, red, orange, green, blue, violet);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.prav{
+    display: grid;
+}
+.shapka{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    background: none;
+    border: none;
+}
+button:hover{
+    background-image: url(../img/28.png);
+    background-size: 150px;
+    background-position: center;
+}
+
+.poka:hover{
+    background: none;
+}
+
+.ksii{
+    transform: translate(-15px, -70px);
+    transition: 0.7s;
+    width: 100px;
+    position: fixed;
+}
+
+.loo{
+    transform: translate(150px, -70px);
+    transition: 0.7s;
+    width: 100px;
+    position: fixed;
+}
+
+.koll{
+    transform: translate(310px, -70px);
+    transition: 0.7s;
+    width: 80px;
+    position: fixed;
+}
+
+.tree{
+    transform: translate(420px, -70px);
+    transition: 0.7s;
+    width: 80px;
+    position: fixed;
+}
+
+.bubb{
+    transform: translate(540px, -60px);
+    transition: 0.7s;
+    width: 80px;
+    position: fixed;
+}
+
+.pak{
+    transform: translate(660px, -70px);
+    transition: 0.7s;
+    width: 80px;
+    position: fixed;
+}
+
+.marr{
+    transform: translate(760px, -70px);
+    transition: 0.7s;
+    width: 80px;
+    position: fixed;
+}
+
+.barr{
+    transform: translate(883px, -70px);
+    transition: 0.7s;
+    width: 80px;
+    position: fixed;
+}
+
+.svis{
+    transform: translate(1010px, -70px);
+    transition: 0.7s;
+    width: 80px;
+    position: fixed;
+}
+
+.rass{
+    transform: translate(1160px, -70px);
+    transition: 0.7s;
+    width: 80px;
+    position: fixed;
+}
