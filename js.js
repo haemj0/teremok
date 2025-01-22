@@ -2,9 +2,13 @@ var clicks = 0;
   function onClick() {
   clicks += 1;
   document.getElementById("clicks").innerHTML = clicks;
-  if (clicks>=6){
-    document.getElementById("str").style.display = 'block'
+  if (clicks==6){
+    alert(`Молодец! Задание выполнено! Допущено ${click} ошибок. Нажми на появившуюся внизу кнопку, чтобы перейти на следующий этап`);
+    document.getElementById("str").style.display = 'block';
   }
+  else if (clicks>=6){
+    document.getElementById("str").style.display = 'block';
+  } 
 };
 
 var click = 0;
